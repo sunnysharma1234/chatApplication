@@ -20,7 +20,7 @@ const SendInput = () => {
     try {
       console.log(message);
       const res = await axios.post(
-        `http://localhost:8080/api/v1/message/send/${selectedUser._id}`,
+        `https://chatapplication-r3oq.onrender.com/api/v1/message/send/${selectedUser._id}`,
         { message },
         {
           headers: {
