@@ -17,15 +17,9 @@ const MessageContainer = ({ user }) => {
     return(
         <div className="min-w-96 h-max-40 flex flex-col">
         <div className="flex gap-3 p-1 items-center text-white rounded-lg bg-slate-600">
-          <div className="avatar online">
-            <div className="w-12 rounded-full">
-              <img src="" alt="User Image" />
-            </div>
-          </div>
-          <div className="flex flex-col flex-1">
-            <div className="flex justify-between gap-2">
-              <p className="capitalize text-wrap">sii</p>
-            </div>
+          
+          <div>
+            <p>select a chat</p>
           </div>
         </div>
         </div>
