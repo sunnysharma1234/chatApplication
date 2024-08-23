@@ -20,7 +20,7 @@ app.use(express.urlencoded({extended:true}))
 app.use(express.json());
 app.use(cookieParser());
 const corsOption={
-    origin:"http://localhost:3000",
+    origin:"https://66c8b7f357638bce31a0e681--superb-seahorse-c734d4.netlify.app",
     credentials:true,
 }
 app.use(cors(corsOption))
